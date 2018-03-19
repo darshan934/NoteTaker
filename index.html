@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Note Taker</title>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+		<script src="functionality.js"></script>
+		<meta name="viewport" content="initial-scale=1, maximum-scale=1" />
+    </head>
+    <body>
+        <div id="header">
+            <div id="name">NoteTaker</div>
+            <div id="menubutton"><a id="menulink" href="#">&#9776</a></div>
+            <div id="menu" class="hiddenmenu">
+                <div class="menuitem"><a id="home" href="#">Home</a></div>
+                <div class="menuitem"><a id="about" href="#">About us</a></div>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div id="container">
+            <textarea id="area" rows="10" cols="50"></textarea>
+            <div id="controls">
+    			<p><a href="javascript:save();" class="button">Save</a>
+        		<a href="javascript:clear();" class="button">Clear</a></p>
+			</div>
+        </div>
+        <div class="footer">
+            <p>github.com/darshan934</p>
+        </div>
+    </body>
+</html>
